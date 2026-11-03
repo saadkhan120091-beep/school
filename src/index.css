@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+
+  --color-ufps-white: #FFFFFF;
+  --color-ufps-ivory: #FAF5F2;
+  --color-ufps-crimson: #8B1518;
+  --color-ufps-maroon: #560B0E;
+  --color-ufps-gold: #F59E0B;
+  --color-ufps-charcoal: #18181B;
+}
+
+@layer base {
+  *, *::before, *::after {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  *::-webkit-scrollbar,
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+    background: transparent;
+  }
+
+  html, body {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color: #18181B;
+    background-color: #FFFFFF;
+    overflow-x: clip;
+    max-width: 100vw;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  h1, h2, h3, h4 {
+    color: #18181B;
+    text-wrap: balance;
+  }
+}

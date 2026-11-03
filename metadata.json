@@ -1,0 +1,6 @@
+{
+  "name": "Umar Farooq Public School",
+  "description": "Official website for Umar Farooq Public School, Pandhu Road, Urmar Miana — Building Bright Futures Through Quality Education.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
